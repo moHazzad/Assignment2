@@ -1,0 +1,181 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+.nav-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+ /* logo  */
+.logo {
+    width: 30%;
+    padding: 5px;
+}
+.logo h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+}
+/* pages  */
+.pages ul {
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+    
+}
+.pages ul li a {
+    font-size: 14px;
+    
+}
+        /* banner section start  */
+
+.banner-texts {
+    width: 100%;
+      
+}
+.banner-texts h1 {
+    font-size: 28px;
+}
+.banner-img {
+    padding: 24px 0;
+}
+        /* banner section end */
+        /* our features section start  */
+
+.features-elemnts {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.images {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+}
+.features-text {
+    text-align: center;
+    width: 100%;
+}
+        /* our features section end  */
+.section-gap{
+    margin: 15% 0;
+}
+        /* features you love  */
+
+.feature-love-element {
+
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    align-items: center;
+}
+.feature-love-text {
+    width: 100%;
+}
+.feature-heading h1 { 
+    text-align: center; 
+    border-left: none;
+}
+.feature-heading p {
+    margin: 20px 0;
+    text-align: center;
+    color: #7e7974;
+}
+.love-feature-image {
+    margin-top:10px ;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.rectangle {
+    margin: 15px 0;
+    position: static;
+    width: 25%;
+    
+}
+        /* features you love end */
+        /* fact section start  */
+
+.fact-text {
+    margin: 35px 0 45px;
+    width: 100%;
+    text-align: center;
+}
+.awards {
+    width: 90%;
+    /* margin: auto; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    
+
+}
+.award {
+    width: 70%;
+    margin: 10px 0;
+}
+.award h2 {
+    font-size: 19px;
+}
+.sponsor-text {
+    
+    width: 100%;
+    text-align: center;
+}
+.sponsor-text h1 {
+    margin: 5px 0;
+    font-size: 35px;
+}
+.sponsor-logo {
+    margin-top: 40px;
+    flex-direction: column;
+    gap: 15px;
+}
+.sponsor-logo img{
+
+}
+        /* fact section end */
+        /* keep in touch start  */
+.keep-text h1 {
+    font-size: 30px;
+}
+.social-links ul {
+    
+    margin-right: 30px;
+}
+        /* keep in touch end */
+        /* footer section  */
+.footer-text {
+    padding: 3px;
+    background-color: #f3cc94;
+    border-radius: 5px;
+}
+footer p {
+    font-size: 11px;
+}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+/* Extra extra large devices (extra large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+    
+}
